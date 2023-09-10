@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+.resume{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border: 2px solid black;
+    padding: 50px;
+    background-color: #fff5e0;
+    overflow: auto;
+}
+
+h1, button{
+    display: inline-block;
+}
+
+h1{
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+button{
+    float: right;
+}
+.subheading p{
+    display: inline-block;
+    font-size: 12px;
+
+}
+.subheading{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.name{
+    border-bottom: 2px solid;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.hobbies{
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    text-align: left;
+}
+ul li{
+    padding-bottom: 10px;
+}
+h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.name button,a{
+    text-decoration: none;
+    color: black;
+}
+button a{
+    padding: 15px;
+    color: #fff;
+
+}
+button{
+    background-color: #00b6c4;
+    border: none;
+    border-radius: 50px 50px;
+}
+button:hover{
+    background-color: orange;
+}
